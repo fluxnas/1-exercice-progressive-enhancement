@@ -1,0 +1,113 @@
+/* structure head body footer */
+body {
+	font-family: Arial;
+}
+
+header {
+	height: 100%;
+	width: 100%;
+	background-image: url("https://images.unsplash.com/photo-1519120944692-1a8d8cfc107f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.sectionquote {
+	font-size: 160%;
+	background: #E8DFDD;
+	border: 3px solid #D6BBB5;}
+
+
+/* typo */
+
+p {	font-size: medium;
+	color: #2C0E37;
+	letter-spacing: 1px;
+	text-align:justify ;}
+
+.good {text-transform: capitalize; color: red;}
+
+.bad {text-transform:  capitalize; color: green;}
+
+.texte {font-weight: bold;}
+
+
+
+/* elements */
+.blockquoteheader  {
+	font-family: Times;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding: 30px;
+}
+
+blockquote {max-width: 50%;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-size: 160%;
+	background: #E8DFDD;
+	border: 3px solid #D6BBB5;
+	padding: 30px;
+	font-style: italic;
+	color : white;}
+
+
+.villagers {border-left: 10px solid #690375;}
+
+.farmers {border-left: 10px solid #CB429F;}
+
+
+
+/* tableau background */
+#tab1 tr:nth-child(even) {background: #D3D3D3;}
+#tab1 tr:hover {background-color: #ddd;}
+
+
+
+/* links */
+a {font-weight: bold; color: #6D495B;}
+
+a:visited {color: #690375;}
+
+a:hover {color: #CB429F;}
+
+
+
+/*flexbox*/
+#section-0 {display: flex;
+			background-color: orange;
+			align-items: center; 
+			justify-content: center;
+			padding: 5%}
+#section-1 { 	display: flex;
+				background-color: yellow;
+				align-items: center; 
+				justify-content: center;
+				padding: 5%;}
+.texte {width: 100%; margin-right: 4%;}
+.image img {width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
